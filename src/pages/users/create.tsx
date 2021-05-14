@@ -1,6 +1,6 @@
 import { Button, Box, Divider, Flex, Heading, VStack, SimpleGrid, HStack } from "@chakra-ui/react";
 
-import { onSubmit, SubmitHandler, useForm } from 'react-hook-form'
+import { SubmitHandler, useForm } from 'react-hook-form'
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup'
 
